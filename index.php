@@ -53,10 +53,10 @@
 		public function rating(points)
 		{
 			if($rate == 5){
-				$this->reviews="good";
+				$this->reviews="Good tent";
 			} else
 			{
-				$this->reviews="bad";
+				$this->reviews="Bad tent";
 			}
 			return $rate;
 		}
@@ -89,7 +89,15 @@
 	
 	}
 	###
+	$Campus_Almeria_2 = new Tent_Campus(array(
+													"capacity" => "2",
+													"weight" => "3.2kg",
+													"type" => "tube",
+													"reviews" => "Good tent",
+													"price" => "799 UAH",
+													));
 	
+	$Campus_Almeria_2 -> print_data();
 	
 	
 
