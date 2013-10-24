@@ -90,24 +90,24 @@
 	}
 	###
 	$Terra_Nova_Solar_Competition_2 = new Tent_TerraNova(array(
-													"capacity" => "2",
-													"weight" => "3.17kg",
-													"type" => "cupol",
-													"reviews" => "Good tent",
-													"price" => "3655 UAH",
-													));
+		"capacity" => "2",
+		"weight" => "3.17kg",
+		"type" => "cupol",
+		"reviews" => "Good tent",
+		"price" => "3655 UAH",
+		));
 													
-	$Campus_Almeria_2 -> print_data();	
-	$Campus_Almeria_2 -> rating(3);
-	$Campus_Almeria_2 -> print_data();
+	$Terra_Nova_Solar_Competition_2 -> print_data();	
+	$Terra_Nova_Solar_Competition_2 -> rating(3);
+	$Terra_Nova_Solar_Competition_2 -> print_data();
 	
 	$Campus_Almeria_2 = new Tent_Campus(array(
-													"capacity" => "2",
-													"weight" => "3.2kg",
-													"type" => "tube",
-													"reviews" => "Good tent",
-													"price" => "799 UAH",
-													));
+		"capacity" => "2",
+		"weight" => "3.2kg",
+		"type" => "tube",
+		"reviews" => "Good tent",
+		"price" => "799 UAH",
+		));
 	
 	$Campus_Almeria_2 -> print_data();	
 	$Campus_Almeria_2 -> rating(4);
