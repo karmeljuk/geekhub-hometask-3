@@ -14,7 +14,7 @@
 		public $reviews; //reviews on tent
 		public $price; //tent price
 		
-		abstract public function rating(points); //tent raiting
+		abstract public function rating($rate); //tent raiting
 		
 		public function initialization($arr)
 		{
@@ -47,16 +47,16 @@
 		#	Constructor
 		public function __construct ($arr)
 		{
-			$this->initialization($arr);
+			$this -> initialization($arr);
 		}
 		
-		public function rating(points)
+		public function rating($rate)
 		{
 			if($rate == 5){
-				$this->reviews="Good tent";
+				$this -> reviews = "Good tent";
 			} else
 			{
-				$this->reviews="Bad tent";
+				$this -> reviews = "Bad tent";
 			}
 			return $rate;
 		}
@@ -75,20 +75,32 @@
 		#	Constructor
 		public function __construct ($arr)
 		{
-			$this->initialization($arr);
+			$this -> initialization($arr);
 		}
 		
-		public function rating(points)
+		public function rating($rate)
 		{
 			if ($rate > 3)
 			{
-				echo "<br> Not bad tent.";
+				echo "<br> You should buy this tent";
 			}
 			return $rate;
 		}
 	
 	}
 	###
+	$Terra_Nova_Solar_Competition_2 = new Tent_TerraNova(array(
+													"capacity" => "2",
+													"weight" => "3.17kg",
+													"type" => "cupol",
+													"reviews" => "Good tent",
+													"price" => "3655 UAH",
+													));
+													
+	$Campus_Almeria_2 -> print_data();	
+	$Campus_Almeria_2 -> rating(3);
+	$Campus_Almeria_2 -> print_data();
+	
 	$Campus_Almeria_2 = new Tent_Campus(array(
 													"capacity" => "2",
 													"weight" => "3.2kg",
@@ -97,7 +109,9 @@
 													"price" => "799 UAH",
 													));
 	
-	$Campus_Almeria_2 -> print_data();
+	$Campus_Almeria_2 -> print_data();	
+	$Campus_Almeria_2 -> rating(4);
+	$Campus_Almeria_2 -> print_data();	
 	
 	
 
