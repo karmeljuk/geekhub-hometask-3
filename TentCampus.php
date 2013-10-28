@@ -6,7 +6,7 @@
 #	Class describes the second tent
 #/doc
 
-class TentCampus extends Tent
+class TentCampus extends AbstractTent
 {
     #	Constructor
     public function __construct ($arr)
