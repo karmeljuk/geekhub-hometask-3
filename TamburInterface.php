@@ -1,6 +1,6 @@
 <?php
 
 interface TamburInterface {
-    public abstract function getTambur();
+    public function getTambur();
 }
 

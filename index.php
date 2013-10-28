@@ -26,4 +26,12 @@ $CampusAlmeria2 -> print_data();
 $CampusAlmeria2 -> rating(4);
 $CampusAlmeria2 -> print_data();
 
-?>
+$TrimmAlfa = new TentTrimm(array(
+    "capacity" => "2-3",
+    "weight" => "2.8kg",
+    "type" => "cupol",
+    "reviews" => "Good tent",
+    "price" => "908 UAH",
+));
+
+$TrimmAlfa -> print_data();
