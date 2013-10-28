@@ -1,8 +1,6 @@
 <?php
 
-include ('lib/AbstractTent.php');
-include ('lib/ClassTentTerraNova.php');
-
+require 'autoload.php';
 
 	
 	#doc

@@ -6,9 +6,8 @@
 	#	Class describes the first tent
 	#/doc
 	
-	class Tent_TerraNova extends Tent
+	class TentTerraNova extends Tent
 	{
-		#	internal variables
 	
 		#	Constructor
 		public function __construct ($arr)
@@ -28,4 +27,3 @@
 		}
 	
 	}
-	###
