@@ -1,14 +1,7 @@
 <?php
 
-	#doc
-	#	classname:	Tent_TerraNova
-	#	scope:		PUBLIC
-	#	Class describes the first tent
-	#/doc
-	
 class TentTerraNova extends AbstractTent
 {
-
     #	Constructor
     public function __construct ($arr)
     {

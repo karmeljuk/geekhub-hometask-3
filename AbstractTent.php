@@ -1,11 +1,5 @@
 <?php
 
-#doc
-#	classname:	Tent
-#	scope:		PUBLIC
-#
-#/doc
-	
 abstract class AbstractTent
 {
     public $capacity; //seats in the tent

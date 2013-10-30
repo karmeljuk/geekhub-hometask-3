@@ -1,11 +1,5 @@
 <?php
 
-#doc
-#	classname:	Tent_Campus
-#	scope:		PUBLIC
-#	Class describes the second tent
-#/doc
-
 class TentCampus extends AbstractTent
 {
     #	Constructor

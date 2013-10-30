@@ -1,6 +1,6 @@
 <?php
 
-class TentTrim extends AbstractTent implements TamburInterface
+class TentTrimm extends AbstractTent implements TamburInterface
 {
     public function getTambur(){
       echo "This tent has a tambour";
