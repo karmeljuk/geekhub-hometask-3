@@ -11,7 +11,7 @@ $TerraNovaSolarCompetition2 = new TentTerraNova(array(
     ));
 
 $TerraNovaSolarCompetition2 -> print_data();
-$TerraNovaSolarCompetition2 -> rating(3);
+$TerraNovaSolarCompetition2 -> raiting(3);
 $TerraNovaSolarCompetition2 -> print_data();
 
 $CampusAlmeria2 = new TentCampus(array(
@@ -23,7 +23,7 @@ $CampusAlmeria2 = new TentCampus(array(
     ));
 
 $CampusAlmeria2 -> print_data();
-$CampusAlmeria2 -> rating(4);
+$CampusAlmeria2 -> raiting(4);
 $CampusAlmeria2 -> print_data();
 
 $TrimmAlfa = new TentTrimm(array(

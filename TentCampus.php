@@ -1,5 +1,11 @@
 <?php
 
+#doc
+#	classname:	Tent_Campus
+#	scope:		PUBLIC
+#	Class describes the second tent
+#/doc
+
 class TentCampus extends AbstractTent
 {
     #	Constructor
@@ -8,7 +14,7 @@ class TentCampus extends AbstractTent
         $this -> initialization($arr);
     }
 
-    public function rating($rate)
+    public function raiting($rate)
     {
         if ($rate > 3)
         {

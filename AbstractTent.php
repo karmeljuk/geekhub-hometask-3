@@ -8,7 +8,7 @@ abstract class AbstractTent
     public $reviews; //reviews on tent
     public $price; //tent price
 
-    abstract public function rating($rate); //tent raiting
+    abstract public function raiting($rate); //tent raiting
 
     public function initialization($arr)
     {

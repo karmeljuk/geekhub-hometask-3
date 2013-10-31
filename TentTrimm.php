@@ -12,7 +12,7 @@ class TentTrimm extends AbstractTent implements TamburInterface
         $this -> initialization($arr);
     }
 
-    public function rating($rate)
+    public function raiting($rate)
     {
         if($rate == 5){
             $this -> reviews = "Good tent";
