@@ -1,6 +1,8 @@
 <?php
 
-namespace Tent;
+namespace Tent\Fond;
+
+use Tent\Fond\AbstractTent;
 
 class TentTrimm extends AbstractTent implements TamburInterface
 {

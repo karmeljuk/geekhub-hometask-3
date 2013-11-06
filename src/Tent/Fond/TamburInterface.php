@@ -1,6 +1,6 @@
 <?php
 
-namespace Tent;
+namespace Tent\Fond;
 
 interface TamburInterface {
     public function getTambur();

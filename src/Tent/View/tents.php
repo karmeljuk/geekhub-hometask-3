@@ -3,6 +3,6 @@
     <title>Tents</title>
 <head>
 <body>
-<b><?php print $tents ?></b>
+<?php print $params ?> </strong>
 </body>
 </html>

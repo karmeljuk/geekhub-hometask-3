@@ -8,18 +8,13 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Tent\Controller;
 
-$TerraNovaSolarCompetition2 = new TentTerraNova(array(
-    "capacity" => "2",
-    "weight" => "3.17kg",
-    "type" => "cupol",
-    "reviews" => "Good tent",
-    "price" => "3655 UAH",
-    ));
+$request = Request::createFromGlobals();
+$uri = $request->getPathInfo();
 
-$TerraNovaSolarCompetition2 -> print_data();
-$TerraNovaSolarCompetition2 -> raiting(3);
-$TerraNovaSolarCompetition2 -> print_data();
+$response = new Controller();
+$response->tentView();
 
+/*
 $CampusAlmeria2 = new TentCampus(array(
     "capacity" => "2",
     "weight" => "3.2kg",
@@ -41,3 +36,4 @@ $TrimmAlfa = new TentTrimm(array(
 ));
 
 $TrimmAlfa -> print_data();
+*/
