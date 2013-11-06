@@ -3,34 +3,39 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "adc6f3e256ac566e88f72e81834cdba0",
+    "hash": "ecbcd3e2e1711adcba20cafd90c0d88c",
     "packages": [
         {
-            "name": "symfony/class-loader",
-            "version": "v2.1.13",
-            "target-dir": "Symfony/Component/ClassLoader",
+            "name": "symfony/http-foundation",
+            "version": "dev-master",
+            "target-dir": "Symfony/Component/HttpFoundation",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/ClassLoader.git",
-                "reference": "0e9d7c12151d4c9942865a049d38e97c6c7288cb"
+                "url": "https://github.com/symfony/HttpFoundation.git",
+                "reference": "b4f4f9f42f7cbbf3796dd724ed66f455a160c89f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/ClassLoader/zipball/0e9d7c12151d4c9942865a049d38e97c6c7288cb",
-                "reference": "0e9d7c12151d4c9942865a049d38e97c6c7288cb",
+                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/b4f4f9f42f7cbbf3796dd724ed66f455a160c89f",
+                "reference": "b4f4f9f42f7cbbf3796dd724ed66f455a160c89f",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
-            "require-dev": {
-                "symfony/finder": "2.1.*"
-            },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
             "autoload": {
                 "psr-0": {
-                    "Symfony\\Component\\ClassLoader": ""
-                }
+                    "Symfony\\Component\\HttpFoundation\\": ""
+                },
+                "classmap": [
+                    "Symfony/Component/HttpFoundation/Resources/stubs"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -46,9 +51,9 @@
                     "homepage": "http://symfony.com/contributors"
                 }
             ],
-            "description": "Symfony ClassLoader Component",
+            "description": "Symfony HttpFoundation Component",
             "homepage": "http://symfony.com",
-            "time": "2013-05-06 10:48:41"
+            "time": "2013-10-30 08:33:58"
         }
     ],
     "packages-dev": [
@@ -58,9 +63,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "symfony/http-foundation": 20
+    },
     "platform": [
 
     ],
