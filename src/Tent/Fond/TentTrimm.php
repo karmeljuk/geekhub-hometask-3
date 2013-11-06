@@ -1,13 +1,12 @@
 <?php
 
-	#doc
-	#	classname:	Tent_TerraNova
-	#	scope:		PUBLIC
-	#	Class describes the first tent
-	#/doc
-	
-class TentTerraNova extends AbstractTent
+namespace Tent;
+
+class TentTrimm extends AbstractTent implements TamburInterface
 {
+    public function getTambur(){
+      echo "This tent has a tambour";
+    }
 
     #	Constructor
     public function __construct ($arr)
@@ -25,5 +24,4 @@ class TentTerraNova extends AbstractTent
         }
         return $rate;
     }
-
 }

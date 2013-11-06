@@ -1,10 +1,9 @@
 <?php
 
-class TentTrimm extends AbstractTent implements TamburInterface
+namespace Tent;
+	
+class TentTerraNova extends AbstractTent
 {
-    public function getTambur(){
-      echo "This tent has a tambour";
-    }
 
     #	Constructor
     public function __construct ($arr)
@@ -22,4 +21,5 @@ class TentTrimm extends AbstractTent implements TamburInterface
         }
         return $rate;
     }
+
 }
