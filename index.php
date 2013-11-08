@@ -9,10 +9,11 @@ use Symfony\Component\HttpFoundation\Response;
 use Tent\Controller;
 
 $request = Request::createFromGlobals();
-$uri = $request->getPathInfo();
+//$uri = $request->getPathInfo();
 
 $response = new Controller();
 $response->tentView();
+var_dump($response);
 
 /*
 $CampusAlmeria2 = new TentCampus(array(
