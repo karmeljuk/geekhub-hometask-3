@@ -17,17 +17,19 @@ $TerraNovaSolarCompetition2 -> print_data();
 */
 class TerraNovaSolarCompetition2
 {
-    public function AboutTerraNovaSolar(){
-    $params = new TentTerraNova(array(
-    "capacity" => "2",
-    "weight" => "3.17kg",
-    "type" => "cupol",
-    "reviews" => "Good tent",
-    "price" => "3655 UAH",
-    ));
+    public function AboutTerraNovaSolar()
+    {
+        $params = new TentTerraNova(array(
+        "capacity" => "2",
+        "weight" => "3.17kg",
+        "type" => "cupol",
+        "reviews" => "Good tent",
+        "price" => "3655 UAH",
+        ));
 
-        $params -> print_data();
+        //$params -> print_data();
 
         return $params;
+        //var_dump($params);
     }
 }
