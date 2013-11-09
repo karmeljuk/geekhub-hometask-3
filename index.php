@@ -13,8 +13,6 @@ $request = Request::createFromGlobals();
 
 $response = new Controller();
 $response->tentView();
-var_dump($response);
-
 /*
 $CampusAlmeria2 = new TentCampus(array(
     "capacity" => "2",
