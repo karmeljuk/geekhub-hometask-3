@@ -6,12 +6,6 @@ use Tent\Fond\AbstractTent;
 
 class TentCampus extends AbstractTent
 {
-    #	Constructor
-    public function __construct ($arr)
-    {
-        $this -> initialization($arr);
-    }
-
     public function raiting($rate)
     {
         if ($rate > 3)
