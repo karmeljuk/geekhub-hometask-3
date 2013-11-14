@@ -10,5 +10,6 @@ use Tent\Controller;
 
 $request = Request::createFromGlobals();
 
-$response = new Controller();
-$response -> tentTerraView();
+$controller = new Controller();
+$response = $controller->tentTerraView();
+$response->send();

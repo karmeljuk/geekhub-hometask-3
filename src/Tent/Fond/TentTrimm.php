@@ -10,12 +10,6 @@ class TentTrimm extends AbstractTent implements TamburInterface
       echo "This tent has a tambour";
     }
 
-    #	Constructor
-    public function __construct ($arr)
-    {
-        $this -> initialization($arr);
-    }
-
     public function raiting($rate)
     {
         if($rate == 5){

@@ -12,6 +12,11 @@ abstract class AbstractTent
 
     abstract public function raiting($rate); //tent raiting
 
+    public function __construct ($arr)
+    {
+        $this->initialization($arr);
+    }
+
     public function initialization($arr)
     {
         $this->capacity = $arr['capacity'];
